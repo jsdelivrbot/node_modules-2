@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      "rails-session-decoder@1.0.4",
+      "/var/www"
+    ]
+  ],
+  "_from": "rails-session-decoder@1.0.4",
+  "_id": "rails-session-decoder@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha1-evXxXn7sQY9iJbAeS5pefM/Ipkc=",
+  "_location": "/rails-session-decoder",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "rails-session-decoder@1.0.4",
+    "name": "rails-session-decoder",
+    "escapedName": "rails-session-decoder",
+    "rawSpec": "1.0.4",
+    "saveSpec": null,
+    "fetchSpec": "1.0.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rails-session-decoder/-/rails-session-decoder-1.0.4.tgz",
+  "_spec": "1.0.4",
+  "_where": "/var/www",
+  "author": {
+    "name": "Soroush Mirzaei",
+    "email": "soroush.mirzaei@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/smirzaei/rails-session-decoder/issues"
+  },
+  "description": "Simple utility for decoding Rails 4.x sessions in node.js",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  },
+  "homepage": "https://github.com/smirzaei/rails-session-decoder",
+  "keywords": [
+    "Rails",
+    "RoR",
+    "session"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "rails-session-decoder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smirzaei/rails-session-decoder.git"
+  },
+  "scripts": {
+    "test": "mocha $(find . -name '*.test.js') -G -R list"
+  },
+  "version": "1.0.4"
+}
